@@ -122,7 +122,6 @@ body{
   line-height: 16px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  
 
 }
 
@@ -135,8 +134,13 @@ body{
   padding: 12px 20px;
   border-radius: 25px;
   color: #fff;
+  
 }
-
+@media(max-width: 700px){
+  .header__button{
+    display: none;
+  }
+}
 
 .header__menu{
 
@@ -249,6 +253,11 @@ body{
 }
 .main-block__body {
   position: absolute;
+}
+@media(max-width: 700px){
+  .main-block__body{
+    display: none;
+  }
 }
 .main-block__word {
   font-weight: 600;
@@ -479,6 +488,16 @@ margin: 0px 0px 20px 0px;
   letter-spacing: 0.02em;
   color: #9DA4BD;
   padding: 20px 0px 0px 40px;
+}
+@media(max-width: 600px){
+  .price-block__value{
+    padding: 20px 100px 0px 40px;
+  }
+}
+@media(max-width: 450px){
+  .price-block__value{
+    padding: 20px 150px 0px 40px;
+  }
 }
 .one{
   background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
