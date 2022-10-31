@@ -80,9 +80,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 /*--------------------*/
+.lock{
+overflow:hidden;
+}
 
-body.lock{
-  overflow:hidden;
+body.{
   height: 100%;
   /* font-family:'ProximaNova', sans-serif; */
   font-family: 'Open Sans';
